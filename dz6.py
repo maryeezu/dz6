@@ -17,7 +17,7 @@ s2 = list[5]
 s = s1 + s2
 
 for x in s:
-    if x in ['a', 'e', 'o', 'u', 'i']:
+    if x in 'aeoui':
         n += 1
     else:
         k += 1
